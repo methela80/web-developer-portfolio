@@ -1,0 +1,58 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol{
+    list-style: none;
+
+}
+.orange-letter{
+    color: #FD6E0A;
+}
+.btn-primary{
+    padding: 15px 35px;
+    background: #FD6E0A;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* common css end */
+
+/* nav css start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
