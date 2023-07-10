@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="styles/all.min.css">
 
 </head>
 
@@ -29,8 +30,8 @@
                 <h1 class="banner_title">Mary Hardy</h1>
                 <p class="banner_description">Shot what able cold new see hold.Friendly as an betrayed formerly he.
                     Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i>Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             <img class="profile_pic" src="images/hardy.png" alt="">
         </div>
@@ -143,13 +144,34 @@
                 </div>   
             </div>
             <div class="download_cv">
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i>Download CV</button>
             </div>
         </section>
     </main>
     <footer>
+        <div class="footer_column">
+            <h3 class="section_title">Lets Connect</h3>
+            <p class="section_description">
+                Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+            </p>
+            <div class="social_link">
+                <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                <a href=""><img src="images/icons/insta.png" alt=""></a>
+            </div>
+        </div> 
+        <div class="footer_column">
+            <h3 class="section_title">Let’s Message me</h3>
+            <form class="contact" action="">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+                <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
 
     </footer>
+    <script src="js/all.min.js"></script>
 </body>
 
 </html>
